@@ -5,7 +5,9 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-
+/**
+*Only one class
+*/
 class MainActivity : AppCompatActivity() {
         val foodList = arrayListOf("South-Indian","Chines","Italian","Biryani")
     override fun onCreate(savedInstanceState: Bundle?) {
