@@ -7,7 +7,7 @@ import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
-        val foodList = arrayListOf("South-Indian","Chines","Italian","Biryani")
+        val foodList = arrayListOf("South-Indian","Chines","Italian","Biryani","North-Indian")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
