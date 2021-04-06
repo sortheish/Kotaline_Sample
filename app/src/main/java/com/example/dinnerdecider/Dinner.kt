@@ -4,4 +4,5 @@ object Dinner {
     val name:String = TODO()
     val age:String = ""
     val fullName = ""
+    val lastName = ""
 }
