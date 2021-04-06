@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         decideBtn.setOnClickListener {
             val random = Random()
             val randomFood = random.nextInt(foodList.count())
